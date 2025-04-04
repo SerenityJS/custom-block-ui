@@ -1,5 +1,6 @@
 {
-  "name": "sample-plugin",
+  "private": true,
+  "name": "@serenityjs/custom-block-ui",
   "version": "1.0.0",
   "author": "SerenityJS",
   "description": "Sample plugin provides a basic configuration for plugin usage in the SerenityJS software.",
@@ -25,11 +26,14 @@
     "Example"
   ],
   "peerDependencies": {
-    "@serenityjs/core": "*",
+    "@serenityjs/core": "^0.7.8-beta-20250328211106",
     "@serenityjs/plugins": "*"
   },
   "devDependencies": {
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@serenityjs/protocol": "^0.7.8-beta-20250328211106"
   }
 }
