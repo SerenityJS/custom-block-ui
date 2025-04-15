@@ -14,7 +14,7 @@ class CustomBlockUI extends Plugin implements PluginEvents {
   public readonly BlockProxyInventoryTrait = BlockProxyInventoryTrait;
 
   public constructor() {
-    super("custom-block-ui", "1.0.0");
+    super("custom-block-ui", "1.0.1");
   }
 
   public onStartUp(): void {

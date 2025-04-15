@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@serenityjs/custom-block-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "SerenityJS",
   "description": "Sample plugin provides a basic configuration for plugin usage in the SerenityJS software.",
   "main": "dist/index.js",
