@@ -8,6 +8,11 @@ import { BlockProxyInventoryTrait } from "./inventory";
 class CustomBlockUI extends Plugin implements PluginEvents {
   public readonly type = PluginType.Addon;
 
+  /**
+   * The block proxy inventory trait that is used to create a proxy inventory for blocks.
+  */
+  public readonly BlockProxyInventoryTrait = BlockProxyInventoryTrait;
+
   public constructor() {
     super("custom-block-ui", "1.0.0");
   }

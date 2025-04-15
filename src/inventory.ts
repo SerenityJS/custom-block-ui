@@ -17,7 +17,6 @@ interface BlockProxyInventoryTraitOptions {
 }
 
 class BlockProxyInventoryTrait extends BlockInventoryTrait {
-  public static readonly identifier = "proxy_inventory"
   public static readonly state = "container_size" // Will automatically bind to a block if the block has a `container_size` state
   public static readonly types = []
 
