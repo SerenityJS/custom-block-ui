@@ -17,4 +17,4 @@ customContainer.components.setIsInteractable(true);
 customContainer.createPermutation({ container_size: 27, container_name: "Custom Container" })
 ```
 
-![Demo Gameplay](https://github.com/SerenityJS/custom-block-ui/blob/typescript/public/demo.gif "Demo Gamplay")
+![Demo Gameplay](https://github.com/SerenityJS/custom-block-ui/blob/typescript/public/demo.gif?raw=true "Demo Gamplay")
