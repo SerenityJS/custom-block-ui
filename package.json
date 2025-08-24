@@ -3,7 +3,7 @@
   "name": "@serenityjs/custom-block-ui",
   "version": "1.0.1",
   "author": "SerenityJS",
-  "description": "Sample plugin provides a basic configuration for plugin usage in the SerenityJS software.",
+  "description": "Create custom container ui for custom blocks.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "license": "MIT",
@@ -22,18 +22,17 @@
     "minify": true
   },
   "keywords": [
-    "Sample",
-    "Example"
+    "User Interface"
   ],
   "peerDependencies": {
-    "@serenityjs/core": "^0.7.8-beta-20250328211106",
-    "@serenityjs/plugins": "*"
+    "@serenityjs/core": "^0.8.10",
+    "@serenityjs/plugins": "^0.8.10"
   },
   "devDependencies": {
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "@serenityjs/protocol": "^0.7.8-beta-20250328211106"
+    "@serenityjs/protocol": "^0.8.10"
   }
 }
